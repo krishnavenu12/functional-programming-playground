@@ -1,0 +1,68 @@
+.App {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: #36A2EB;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c8cd1;
+}
+
+.output {
+  background: #f5f5f5;
+  padding: 20px;
+  margin-top: 16px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.dropdown {
+  text-align: left;
+  margin: 16px 0;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.tab-buttons button {
+  margin: 0 8px;
+  padding: 10px 18px;
+  background-color: #e6e6e6;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.tab-buttons button.active {
+  background-color: #36A2EB;
+  color: white;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  margin-top: 8px;
+}
